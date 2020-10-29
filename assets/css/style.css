@@ -96,23 +96,33 @@ body {
   nav a:first-child {
     border-left: 0 none;
   }
-  .button {background-color:#4aaaa5;
-           border: none;
-          color: white;
-          border: 2px solid black; 
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-          }
-   .button:hover {
-            background-color:  #0fa19a; 
-            color: white;
-          }     
+  .btn {
+    background-color:#4aaaa5;
+    border: 2px solid black; 
+    border: #4aaaa5;
+    color: white;
+    border-radius: 12px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+
+.btn:hover {
+    background-color:  #0fa19a; 
+    color: white;
+    border: 2px solid black; 
+  }     
+  
+  
+
+
+     
 
   /* Style all font awesome icons */
 .fa {
@@ -218,7 +228,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 5px;
     min-height: calc(100vh - 70px);
   }
   
