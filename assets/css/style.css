@@ -4,6 +4,7 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/MilkyWay.jpg");
+  
   }
   
   * {
@@ -95,6 +96,24 @@ body {
   nav a:first-child {
     border-left: 0 none;
   }
+  .button {background-color:#4aaaa5;
+           border: none;
+          color: white;
+          border: 2px solid black; 
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+          }
+   .button:hover {
+            background-color:  #0fa19a; 
+            color: white;
+          }     
+
   /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -118,6 +137,10 @@ body {
 }
 
 /* Twitter */
+.fa-github {
+  background: black;
+  color: white;
+}
 .fa-twitter {
   background: #55ACEE;
   color: white;
@@ -145,7 +168,32 @@ body {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+.btn-group button {
+  background-color:#4aaaa5; 
+  border: 2px solid black; 
+ 
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: center; /* Float the buttons side by side */
 
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #0fa19a;
+}
   /* footer */
   
   footer {
@@ -181,11 +229,18 @@ body {
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
-    border: 1px solid #dddddd;
+    border: 1px solid black
+    ;
   }
   
   /* portfolio page */
+  .card-img-top {
   
+border: 2px solid black; 
+
+  }
+
+
   .work {
     position: relative;
     float: left;
@@ -200,7 +255,7 @@ body {
   
   .work img {
     width: 100%;
-    border: 0 none;
+    border: 2 px black;
     opacity: 0.8;
   }
   
@@ -212,10 +267,11 @@ body {
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
-    color: #ffffff;
+    color: #4aaaa5;
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+
   }
   
   .auth-image {
