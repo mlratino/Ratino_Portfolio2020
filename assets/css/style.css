@@ -4,6 +4,7 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/MilkyWay.jpg");
+  
   }
   
   * {
@@ -95,7 +96,135 @@ body {
   nav a:first-child {
     border-left: 0 none;
   }
+  .btn {
+    background-color:#4aaaa5;
+    border: 2px solid black; 
+    border: #4aaaa5;
+    color: white;
+    border-radius: 12px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+
+.btn:hover {
+    background-color:  #0fa19a; 
+    color: white;
+    border: 2px solid black; 
+  }     
+  .button {
+    background-color:#4aaaa5;
+    border: 2px solid black; 
+    border: #4aaaa5;
+    color: white;
+    border-radius: 12px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  }
+
+.button:hover {
+    background-color:  #0fa19a; 
+    color: white;
+    border: 2px solid black; 
+  }     
   
+
+
+     
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-github {
+  background: black;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.btn-group button {
+  background-color:#4aaaa5; 
+  border: 2px solid black; 
+ 
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: center; /* Float the buttons side by side */
+
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #0fa19a;
+}
   /* footer */
   
   footer {
@@ -107,7 +236,7 @@ body {
     text-align: center;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
+    height: 200px;
   }
   
   h3, h2 {
@@ -120,7 +249,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 5px;
     min-height: calc(100vh - 70px);
   }
   
@@ -131,11 +260,18 @@ body {
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
-    border: 1px solid #dddddd;
+    border: 1px solid black
+    ;
   }
   
   /* portfolio page */
+  .card-img-top {
   
+border: 2px solid black; 
+
+  }
+
+
   .work {
     position: relative;
     float: left;
@@ -150,7 +286,7 @@ body {
   
   .work img {
     width: 100%;
-    border: 0 none;
+    border: 2 px black;
     opacity: 0.8;
   }
   
@@ -162,10 +298,11 @@ body {
     margin-bottom: 0;
     font-weight: 300;
     line-height: 30px;
-    color: #ffffff;
+    color: #4aaaa5;
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+
   }
   
   .auth-image {
