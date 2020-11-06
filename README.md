@@ -16,7 +16,7 @@ Bootstrap
 Node
 
 
-https://github.com/mlratino/Ratino_Portfolio2020.git
+![alt] (https://github.com/mlratino/Ratino_Portfolio2020.git)
 
-![alt] (RatinoCV.jpg)
+![alt] (https://www.linkedin.com/in/maria-ratino/)
 
