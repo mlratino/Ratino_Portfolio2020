@@ -1,0 +1,24 @@
+{
+  "name": "ratino_portfolio2020",
+  "version": "1.0.0",
+  "description": "<img src=assets\\images\\About.PNG>\r <img src=assets\\images\\About2.PNG>\r <img src=assets\\images\\Portfolio1.png>\r <img src=assets\\images\\Portfolio2.PNG>\r <img src=assets\\images\\Portfolio3.PNG>\r <img src=assets\\images\\Contact.PNG>",
+  "main": "npm install express",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlratino/Ratino_Portfolio2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlratino/Ratino_Portfolio2020/issues"
+  },
+  "homepage": "https://github.com/mlratino/Ratino_Portfolio2020#readme",
+  "keywords": []
+}
