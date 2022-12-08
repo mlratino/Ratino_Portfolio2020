@@ -4,7 +4,7 @@
   "description": "<img src=assets\\images\\About.PNG>\r <img src=assets\\images\\About2.PNG>\r <img src=assets\\images\\Portfolio1.png>\r <img src=assets\\images\\Portfolio2.PNG>\r <img src=assets\\images\\Portfolio3.PNG>\r <img src=assets\\images\\Contact.PNG>",
   "main": "npm install express",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {},
   "scripts": {
